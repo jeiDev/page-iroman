@@ -6,20 +6,7 @@ body{
     display: flex;
     flex-direction: column;
     color: white;
-}
-
-/* FONDO DE LA PANTALLA */
-.background{
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-}
-
-.background>img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-color: black;
 }
 
 /* MENU */
@@ -103,4 +90,19 @@ header>.contenedor-menu>.box-watch>.btn-watch>.text{
     font-weight: bold;
     padding-left: 15px;
 }
+
 /* TODA LA PAGINA */
+
+/* FONDO DE LA PANTALLA */
+main>.background{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main>.background>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
